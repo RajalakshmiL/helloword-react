@@ -19,16 +19,19 @@
    padding: 10px;
    margin: 10px
 }
-.res-container{
+.res-container,.shimmer-container{
    display: flex;
    flex-wrap: wrap;
 }
 
-.res-card{
+.res-card,.shimmer-card{
    margin:5px;
    padding: 3px;
-   width: 200px;
+   width: 150px;
    background-color: #f0f0f0;
+}
+.shimmer-card{
+   height: 300px;
 }
 .res-card:hover{
    cursor: pointer;
@@ -36,8 +39,12 @@
 
 }
 
+.filter{
+   margin: 10px;
+   display: flex;
+}
 .search{
-   padding: 10px;
+   margin-right: 10px;
 }
 
 .res-logo{
@@ -54,3 +61,9 @@
     line-height: 19px;
     color: rgba(2, 6, 12, 0.6)
 }
+.login-btn{
+   padding: 0px 20px;
+   margin:  0px 10px;
+   cursor: pointer;
+}
+
