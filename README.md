@@ -23,3 +23,21 @@ const heading = React.createElement(); /_ heading is react element which is JS o
 - HTTPs
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+
+# React Hooks:
+(Normal Js Utility functions)
+- UseState() - SuperPowerful State Variables in React
+- UseEffect()
+
+# 2 Types of Routing:
+- Client Side Routing
+- Server Side ROuting
+
+# Redux
+- Install  @reduxjs/toolkit and react-redux
+- Build our store
+- Connect our store to our app
+- Slice  (CartSlice)
+- Dispatch(action)
+- Selector   
