@@ -41,3 +41,17 @@ const heading = React.createElement(); /_ heading is react element which is JS o
 - Slice  (CartSlice)
 - Dispatch(action)
 - Selector   
+
+# Types of Testing   (Developer)
+- Unit Testing
+- Integration Testing
+- End to end Testing - e2e testing
+
+# Setting up Testing in out Application
+- Install React Testing Library -> @testing-library/react
+- Installed Jest -> npm i -D jest
+- Install Babel dependencies - [jest](https://jestjs.io/docs/getting-started)
+- Configure Babel - [jest](https://jestjs.io/docs/getting-started)
+- Configure parcel Config file to disable default babel Transpilation - Go to Parcel Docs -> https://parceljs.org/languages/javascript/#babel
+- Configure Jest -> [npx jest --init] command  (Give some inputs)
+- Install jsdom library - React testing library -> setup -> jest28 -> (npm i -D jest-environment-jsdom)
